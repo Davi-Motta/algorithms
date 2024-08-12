@@ -8,7 +8,7 @@ void bSort(int arr[], int len){
     while(swap != false){
         swap = false;
         for(int i = 0; i < len -1; i+=1){
-           if(arr[i] > arr[i+1]){ int list[5] = {5,1,4,2,8};  
+           if(arr[i] > arr[i+1]){  
             hld = arr[i+1];
             arr[i+1]= arr[i];
             arr[i] = hld;
