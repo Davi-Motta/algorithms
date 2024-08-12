@@ -1,5 +1,7 @@
 //Algorithm declarations and dependencies
+#ifndef algs_H
+#define algs_H
 
-#include <stdbool.h>
+void bSort(int arr[], int len); //Bubble Sort an array given its lenght
 
-void bSort(int arr[], int len);
+#endif

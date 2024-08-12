@@ -1,6 +1,5 @@
 //Algorithm definitions
-
-#include "algs.h"
+#include <stdbool.h>
 
 void bSort(int arr[], int len){
     int hld;
